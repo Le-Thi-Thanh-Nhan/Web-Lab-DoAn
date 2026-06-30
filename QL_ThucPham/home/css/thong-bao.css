@@ -1,0 +1,132 @@
+/* Notifications Container */
+.notifications-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.notifications-container h2 {
+    color: var(--primary-dark);
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--primary-light);
+    position: relative;
+}
+
+.notifications-container h2::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+/* Notifications List */
+.notifications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notification-item {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.notification-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.notification-item h3 {
+    color: var(--primary-dark);
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
+.notification-item p {
+    color: var(--text-dark);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.notification-date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--gray-500);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.notification-date i {
+    color: var(--primary-color);
+}
+
+/* Empty State */
+.no-notifications {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    color: var(--gray-500);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.no-notifications i {
+    font-size: 48px;
+    color: var(--gray-400);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .notifications-container {
+        margin: 20px auto;
+    }
+    
+    .notification-item {
+        padding: 15px;
+    }
+    
+    .notification-item h3 {
+        font-size: 16px;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .notification-date {
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.notification-item {
+    animation: fadeIn 0.3s ease;
+} 

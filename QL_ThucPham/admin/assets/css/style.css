@@ -1,0 +1,44 @@
+/* Main Layout */
+.content-wrapper {
+    padding: 20px;
+    margin-left: 250px; /* Adjust based on your sidebar width */
+}
+
+/* Stat Cards */
+.stat-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card i {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.3;
+}
+
+/* Charts */
+.chart-container {
+    min-height: 300px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-wrapper {
+        margin-left: 0;
+    }
+}
+
+/* Table Styles */
+.table-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,0,0,0.02);
+}
+
+/* Scrollbar styles moved to specific components */
+/* DO NOT ADD SCROLLBAR STYLES HERE */ 

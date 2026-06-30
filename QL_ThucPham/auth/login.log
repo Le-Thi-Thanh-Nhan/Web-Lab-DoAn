@@ -1,0 +1,62 @@
+[2025-05-23 21:52:49] Attempting login for username: admin01
+[2025-05-23 21:54:10] Attempting login for username: admin01
+[2025-05-23 21:54:10] Password mismatch for user: admin01
+[2025-05-23 21:54:10] Error: Tên đăng nhập hoặc mật khẩu không chính xác
+[2025-05-23 22:02:35] === Starting login attempt ===
+[2025-05-23 22:02:35] POST data: Array
+(
+    [username] => admin01
+    [password] => alacrity1123
+)
+
+[2025-05-23 22:02:35] Cleaned username: admin01
+[2025-05-23 22:02:35] Attempting database connection...
+[2025-05-23 22:02:35] Database connection successful
+[2025-05-23 22:02:35] Charset set to utf8
+[2025-05-23 22:02:35] Preparing query: SELECT * FROM customers WHERE username = ? LIMIT 1
+[2025-05-23 22:02:35] Statement prepared successfully
+[2025-05-23 22:02:35] Parameters bound. Username: admin01
+[2025-05-23 22:02:35] Query executed successfully
+[2025-05-23 22:02:35] User found: Array
+(
+    [customer_id] => 1
+    [username] => admin01
+    [password] => alacrity1123
+    [name] => Cao Văn Đức
+    [email] => cvn@gmail.com
+    [phone_number] => 
+    [address] => 
+    [created_at] => 2025-05-24 02:59:00
+    [updated_at] => 2025-05-24 02:59:00
+)
+
+[2025-05-23 22:02:35] Password verified successfully
+[2025-05-23 22:03:23] === Starting login attempt ===
+[2025-05-23 22:03:23] POST data: Array
+(
+    [username] => user1
+    [password] => hashed_pass_1
+)
+
+[2025-05-23 22:03:23] Cleaned username: user1
+[2025-05-23 22:03:23] Attempting database connection...
+[2025-05-23 22:03:23] Database connection successful
+[2025-05-23 22:03:23] Charset set to utf8
+[2025-05-23 22:03:23] Preparing query: SELECT * FROM customers WHERE username = ? LIMIT 1
+[2025-05-23 22:03:23] Statement prepared successfully
+[2025-05-23 22:03:23] Parameters bound. Username: user1
+[2025-05-23 22:03:23] Query executed successfully
+[2025-05-23 22:03:23] User found: Array
+(
+    [customer_id] => 2
+    [username] => user1
+    [password] => hashed_pass_1
+    [name] => Nguyễn Văn An
+    [email] => user1@example.com
+    [phone_number] => 0123456789
+    [address] => Hà Nội
+    [created_at] => 2025-05-24 02:59:00
+    [updated_at] => 2025-05-24 02:59:00
+)
+
+[2025-05-23 22:03:23] Password verified successfully
