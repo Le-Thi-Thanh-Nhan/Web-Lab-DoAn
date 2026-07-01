@@ -1,6 +1,6 @@
 # 🛒 Hệ Thống Bán Thực Phẩm Online (Online Food Ordering System)
 
-Dự án **Xây dựng hệ thống bán thực phẩm online** là Đồ án 1 của nhóm sinh viên thuộc Khoa Công nghệ thông tin – Trường Đại học Kinh tế - Kỹ thuật Công nghiệp (UNETI). Hệ thống cung cấp giải pháp thương mại điện tử trực tuyến, giúp tối ưu hóa quy trình kinh doanh thực phẩm tươi sạch và nâng cao trải nghiệm mua sắm của người tiêu dùng.
+Dự án **Xây dựng hệ thống bán thực phẩm online** là Đồ án 1 của nhóm chúng tôi thuộc Khoa Công nghệ thông tin – Trường Đại học Kinh tế - Kỹ thuật Công nghiệp (UNETI). Hệ thống cung cấp giải pháp thương mại điện tử trực tuyến, giúp tối ưu hóa quy trình kinh doanh thực phẩm tươi sạch và nâng cao trải nghiệm mua sắm của người tiêu dùng.
 
 <img width="753" height="388" alt="image" src="https://github.com/user-attachments/assets/0a62cede-1706-4cfa-aeff-9a991ad57e14" />
 
