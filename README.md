@@ -16,6 +16,9 @@ Hệ thống được thiết kế phân quyền rõ ràng cho hai nhóm đối 
 * **Tính năng mở rộng:** Đánh giá sản phẩm đã mua, thêm thực phẩm vào danh sách yêu thích, nhận thông báo từ hệ thống và gửi biểu mẫu liên hệ hỗ trợ.
 
 ### 🛠️ Quản Trị Viên (Admin Dashboard)
+
+<img width="753" height="381" alt="image" src="https://github.com/user-attachments/assets/e0ca3c18-975f-4d22-8ac3-5389606960ff" />
+
 * **Quản lý tài khoản:** Thêm mới, chỉnh sửa, xóa và quản lý quyền truy cập của các tài khoản người dùng.
 * **Quản lý sản phẩm:** Thêm mới, sửa đổi thông tin, ẩn/xóa sản phẩm, theo dõi hiệu suất sản phẩm và kiểm soát số lượng tồn kho.
 * **Quản lý danh mục:** Thiết lập, sắp xếp cấu trúc danh mục cha (categories) và danh mục con (subcategories) để phân loại thực phẩm.
